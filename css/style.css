@@ -60,3 +60,36 @@ header{
     border: solid;
     display: flex;
 }
+
+
+
+footer{
+    text-align: center;
+    background-color: rgb(33,33,33);
+    color: rgb(199, 193, 193);
+    font-size: 14px;
+}
+.ft{
+    width: 80%;
+}
+
+.last-section{
+    width: 90%;
+}
+.butn{
+    background-color: rgb(121,185,40);
+    font-size: larger;
+    font-weight: bolder;
+    border: none;
+}
+.order-md-1 p{
+    font-size: 22px;
+    line-height: 22px;
+    color: rgb(70, 70, 70);
+    font-weight: 100;
+}
+.order-md-1 h1{
+    font-size: 28px;
+    color: rgb(71, 71, 71);
+    font-weight: bolde;
+}
