@@ -23,8 +23,13 @@ header{
 }
 .product{
     text-align: center;
+   
 }
-@media screen and (max-width: 510px){
+
+.bottomright h5{
+    color: rgb(24,124,215);
+}
+@media screen and (max-width: 768px){
    
     .img1{
         object-fit: cover;
@@ -34,9 +39,16 @@ header{
         height: 115px;
         border-bottom: 1px gray solid;
     }
+    
 
 }
-@media screen and (min-width: 720px){
+@media screen and (max-width: 768px){
+    .claimr{
+        visibility: hidden;
+    }
+}
+
+@media screen and (min-width: 768px){
     .prodpic h3{
         
         visibility: hidden;
@@ -60,7 +72,57 @@ header{
     border: solid;
     display: flex;
 }
+.green-border{
+    border: greenyellow 2px solid;
+    
+}
 
+.color-selact{
+    display: grid;
+    grid-template-areas: 
+    'iron white black'
+    ;
+    
+}
+
+.iron{
+ grid-area: iron;
+ border: solid 1px gray;
+ padding: 10px;
+ margin: 2px;
+}
+.white{
+ grid-area: white;
+ border: solid 1px gray;
+ padding: 10px;
+ margin: 2px;
+}
+.black{
+ grid-area: black;
+ border: solid 1px gray;
+ padding: 10px;
+ margin: 2px;
+}
+.black:hover{
+    border: 2px green solid;
+}
+.iron:hover{
+    border: 2px green solid;
+}
+.white:hover{
+    border: 2px green solid;
+}
+.form input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid gray;
+}
+.ebtn{
+    background-color: greenyellow;
+    font-weight: bolder;
+    font-size: 22px;
+}
 
 
 footer{
@@ -93,3 +155,28 @@ footer{
     color: rgb(71, 71, 71);
     font-weight: bolde;
 }
+.imgslide{
+    background-color: black;
+}
+@media screen and (min-width: 720px){
+ .sli{
+    min-width: 1500px;
+}
+}
+.imgd{
+    border: 1px rgb(209, 209, 209) solid;
+}
+.tel p , h4{
+    color: rgb(121, 121, 121);
+}
+.tel h4{
+    font-size: 20px;
+}
+.tel p{
+    font-size: 15px;
+}
+.feat{
+    display: flex;
+    justify-content:space-around;
+}
+
